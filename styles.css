@@ -1,4 +1,24 @@
 body {
-	margin:none;
-	padding:none;
+	margin:0;
+	padding:0;
+}
+
+section {
+	text-align:center;
+	overflow:auto;
+	padding:0;
+	margin:0;
+	width:100%;
+}
+
+#nav {
+	background-color:#CBF7ED;
+}
+
+#section1 {
+	background-color:#8EA8C3;
+}
+
+#section2 {
+	background-color:#406E8E;
 }
