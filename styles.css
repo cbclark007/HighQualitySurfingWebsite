@@ -30,15 +30,15 @@ li {
 }
 
 #nav {
-	background-color:#CBF7ED;
+	background-color:#406E8E;
 }
 
-#section1 {
+.odds {
 	background-color:#8EA8C3;
 }
 
-#section2 {
-	background-color:#406E8E;
+.evens {
+	background-color:#CBF7ED;
 }
 
 .btn {
@@ -48,7 +48,7 @@ li {
   font-family: Arial;
   color: #ffffff;
   font-size: 20px;
-  background: #406E8E;
+  background: #8EA8C3;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -56,4 +56,15 @@ li {
 .btn:hover {
   background: #4485c2;
   text-decoration: none;
+}
+
+.half {
+	width:48%;
+	margin:0.5em 1%;
+	float:left;
+}
+
+#signup {
+	width:98%;
+	margin:0.5em 1%;
 }
