@@ -16,9 +16,9 @@
 		<!-- <div> -->
 		<nav id="navigation">
 			<ul>
-				<li><a class="btn" href="#">Home</a></li>
-				<li><a class="btn" href="#">Boards</a></li>
-				<li><a class="btn" href="#">Pictures</a></li>
+				<li><a class="btn" href="index.html">Home</a></li>
+				<li><a class="btn" href="boards.html">Boards</a></li>
+				<li><a class="btn" href="pictures.html">Pictures</a></li>
 				<li><a class="btn" href="https://github.com/cbclark007/HighQualitySurfingWebsite" target="_blank">Github</a></li>
 			</ul>
 		</nav>
@@ -92,7 +92,38 @@
 
 <section class="odds">
 	<div id="signup">
-		<p>Ima put signups here with a form</p>
+		<form action="http://www.example.com" class="whitetext">
+		<fieldset>
+			<legend class="biggertext"><i>Sign Up for Weekly Surfer Newsletters</i></legend>
+
+			<table>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td><label for="name">Your name:</label></td>
+					<td><input id="name" type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td><label for="email">Your email:</label></td>	
+					<td><input id="email" type="email" name="email"></td>
+				</tr>
+
+				<tr>
+					<td><label>I agree to the Terms and Conditions.</label></td>
+					<td>
+						<input type="radio" name="member" value="Yes">
+						<label>Yes</label>
+						<input type="radio" name="member" value="No">
+						<label>No</label>
+					</td>
+				</tr>
+			</table>
+
+		</fieldset>
+		<input type="submit" name="register" value="Sign Up" class="btn registerbtn">
+	</form>
 	</div>
 </section>
 
@@ -109,7 +140,7 @@
 		</div>
 
 		<div class="thirds">
-			<p class="lowpaddingp">Contact info: <a href="mailto:surfers@example.com" class="mail">surfers@example.com</a></p>
+			<p class="lowpaddingp">Contact info: <a href="mailto:surfers@example.com" class="whitetext">surfers@example.com</a></p>
 			<p class="lowpaddingp">Phone: (123)-456-789</p>
 		</div>
 	</footer>

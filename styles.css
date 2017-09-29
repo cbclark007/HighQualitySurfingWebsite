@@ -121,8 +121,9 @@ header {
 }
 
 #signup {
-	width:98%;
-	margin:0.5em 1%;
+	width:50%;
+	margin:0.5em 25%;
+
 }
 
 #guysurfing {
@@ -192,11 +193,19 @@ footer {
 	float:left;
 }
 
-.mail {
-	color:white;
-}
-
 .lowpaddingp {
 	margin-bottom:0;
 	padding-bottom:0;
+}
+
+.whitetext {
+	color:white;
+}
+
+.centertext {
+	text-align:center;
+}
+
+.biggertext {
+	font-size:20px;
 }
