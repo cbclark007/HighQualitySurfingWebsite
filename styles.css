@@ -173,6 +173,9 @@ header {
 footer {
 	background:#161925;
 	color:white;
+	overflow:auto;
+	margin:0;
+	padding:0;
 }
 
 .img {
@@ -181,4 +184,19 @@ footer {
 
 .bigh1 {
 	font-size:30px;
+}
+
+.footerimg {
+	width:20%;
+	display:inline-block;
+	float:left;
+}
+
+.mail {
+	color:white;
+}
+
+.lowpaddingp {
+	margin-bottom:0;
+	padding-bottom:0;
 }
