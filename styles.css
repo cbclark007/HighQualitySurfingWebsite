@@ -209,3 +209,11 @@ footer {
 .biggertext {
 	font-size:20px;
 }
+
+.fixedheightsection {
+	height:200px;
+}
+
+.img2 {
+	height:300px;
+}
