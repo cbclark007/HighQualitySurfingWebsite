@@ -148,7 +148,7 @@ header {
 }
 
 #checkout {
-	padding-top:4.2em;
+	padding-top:3em;
 }
 
 #surferpichome {
@@ -157,7 +157,7 @@ header {
 }
 
 #lookat {
-	padding-top:5em;
+	padding-top:3.7em;
 }
 
 #browsepics {
@@ -173,4 +173,12 @@ header {
 footer {
 	background:#161925;
 	color:white;
+}
+
+.img {
+	width:100%;
+}
+
+.bigh1 {
+	font-size:30px;
 }
